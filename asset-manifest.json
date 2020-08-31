@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bc9b5dfc.chunk.css",
+    "main.js": "./static/js/main.b5e2f51f.chunk.js",
+    "main.js.map": "./static/js/main.b5e2f51f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.05d1baf0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.05d1baf0.js.map",
+    "static/js/2.d8881b3b.chunk.js": "./static/js/2.d8881b3b.chunk.js",
+    "static/js/2.d8881b3b.chunk.js.map": "./static/js/2.d8881b3b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.efd5ded0606824c7b29769464e74486c.js": "./precache-manifest.efd5ded0606824c7b29769464e74486c.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.bc9b5dfc.chunk.css.map": "./static/css/main.bc9b5dfc.chunk.css.map",
+    "static/js/2.d8881b3b.chunk.js.LICENSE.txt": "./static/js/2.d8881b3b.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/Ubuntu-Regular.2505bfbd.ttf",
+    "static/media/NotFoundPage.scss": "./static/media/sad-cry.d5f941eb.svg",
+    "static/media/Feed.scss": "./static/media/close.6f553d93.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05d1baf0.js",
+    "static/js/2.d8881b3b.chunk.js",
+    "static/css/main.bc9b5dfc.chunk.css",
+    "static/js/main.b5e2f51f.chunk.js"
+  ]
+}
