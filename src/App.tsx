@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import * as store from './store';
+
 import './App.scss';
 
 import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 
 const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(store.loadPosts());
+  }, [dispatch]);
+
   return (
     <div className="app">
       <main>

@@ -27,10 +27,6 @@ const Feed = () => {
   const isWidgetsVisible = useSelector(store.getIsWidgetsVisible);
 
   useEffect(() => {
-    dispatch(store.loadPosts());
-  }, [dispatch]);
-
-  useEffect(() => {
     dispatch(setSearchQuery(query));
     setVisibleQuery(query);
   }, [query, dispatch]);
