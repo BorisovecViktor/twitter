@@ -1,0 +1,13 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 0.75fr 1.5fr 0.75fr;
+  height: 100vh;
+
+  @media (max-width: 969px) {
+    grid-template-columns: 1fr 0.5fr;
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}

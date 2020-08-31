@@ -1,0 +1,83 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.feed {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #fff;
+    z-index: 100;
+    border-bottom: 1px solid $twitter-background;
+  }
+
+  &__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    padding: 10px 25px 10px 10px;
+    background-color: $twitter-background;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+    @media (max-width: 559px) {
+      width: 70%;
+    }
+  }
+
+  &__search-icon {
+    color: gray;
+  }
+
+  &__search-input {
+    width: 100%;
+    border: none;
+    background-color: $twitter-background;
+    outline: none;
+  }
+
+  &__search-delete {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    background-image: url("../../img/icons/close.svg");
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &__widget-icon {
+    display: none !important;
+    margin-left: 10px;
+    color: $primary-color;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      display: block !important;
+    }
+
+    &:hover {
+      @include hover(color, $twitter-color, 0.3);
+    }
+
+    &--active {
+      color: $twitter-color;
+    }
+  }
+}

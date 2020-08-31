@@ -1,0 +1,16 @@
+@import "./styles/fonts";
+@import "./styles/reset";
+@import "./styles/variables";
+@import "./styles/mixins";
+
+html {
+  @include scrollbar-style;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  color: $primary-color;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

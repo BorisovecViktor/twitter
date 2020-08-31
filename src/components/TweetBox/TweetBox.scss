@@ -1,0 +1,70 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.tweet-box {
+  padding: 0 10px 10px;
+  border-bottom: 8px solid $twitter-background;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+    padding: 20px;
+  }
+
+  &__text {
+    flex: 1;
+    width: 100%;
+    margin-left: 20px;
+    padding: 0 10px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    outline: none;
+
+    @media (max-width: 559px) {
+      font-size: 15px;
+    }
+
+    &--url {
+      margin-left: 0;
+      padding: 10px;
+    }
+  }
+
+  &__text--error,
+  &__url--error {
+    border-color: red;
+  }
+
+  &__text--error-message,
+  &__url--error-message {
+    position: absolute;
+    color: red;
+  }
+
+  &__text--error-message {
+    bottom: 0;
+    left: 80px;
+  }
+
+  &__url--error-message {
+    bottom: 0;
+    left: 20px;
+  }
+
+  &__tweet-button {
+    @include button;
+    width: 130px;
+    height: 40px;
+    margin-left: auto;
+
+    &:hover {
+      @include hover(background-color, #72c4f7, 0.3);
+    }
+  }
+}

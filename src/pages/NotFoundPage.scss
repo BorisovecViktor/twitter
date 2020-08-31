@@ -1,0 +1,43 @@
+@import "../styles/variables";
+
+.notfound {
+  &__message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    height: 45vh;
+    background: url("../img/icons/sad-cry.svg") no-repeat;
+    background-position: center center;
+    background-size: 50px 50px;
+    text-align: center;
+  }
+
+  &__message-title {
+    margin-top: 60px;
+    font-size: 34px;
+  }
+
+  &__message-text {
+    width: 300px;
+    margin-top: 10px;
+    line-height: 25px;
+  }
+
+  &__link {
+    margin-top: 20px;
+    border: transparent;
+    padding-left: 15px;
+    background: url("../img/icons/arrow-left.svg") no-repeat;
+    background-position: center left;
+    color: $secondary-color;
+    transition: color $transition-duration;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

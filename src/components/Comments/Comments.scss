@@ -1,0 +1,85 @@
+@import "../../styles/variables";
+
+.comment {
+  &__form {
+    position: relative;
+    display: flex;
+    margin: 15px 0 30px;
+
+    @media (max-width: 559px) {
+      display: block;
+      margin: 15px 0;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid $twitter-background;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+
+    @media (max-width: 1023px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 559px) {
+      margin-right: 0;
+    }
+
+    &--error {
+      border-color: red;
+    }
+  }
+
+  &__button {
+    margin-top: 0;
+
+    @media (max-width: 559px) {
+      width: 100%;
+      margin-top: 25px;
+    }
+  }
+
+  &__error-message {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    color: red;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    padding: 10px;
+    border: 1px solid $twitter-background;
+    border-radius: 20px;
+
+    & h2 {
+      font-weight: bold;
+    }
+  }
+
+  &__item {
+    max-width: 444px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @media (max-width: 767px) {
+      max-width: 520px;
+    }
+  }
+
+  &__item:not(:last-child) {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $twitter-background;
+  }
+}

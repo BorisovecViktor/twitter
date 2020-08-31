@@ -1,0 +1,84 @@
+@import "../../styles/variables";
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid $twitter-background;
+
+  &__avatar {
+    margin: 10px 20px 20px 10px;
+  }
+
+  &__body {
+    overflow: hidden;
+  }
+
+  &__header {
+    margin-bottom: 10px;
+  }
+
+  &__header-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    color: $twitter-color;
+  }
+
+  &__special {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+
+  &__user-name {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+  }
+
+  &__badge {
+    font-size: 14px !important;
+    color: $twitter-color;
+  }
+
+  &__header-description {
+    max-width: 559px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__image {
+    margin-bottom: 10px;
+  }
+
+  &__picture {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__footer {
+    display: flex;
+
+    & svg:first-child {
+      margin-right: 15px;
+    }
+  }
+
+  &__icon {
+    cursor: pointer;
+
+    &--chat:hover {
+      color: #0068AD;
+    }
+
+    &--favorite:hover,
+    &--active {
+      color: red;
+    }
+  }
+}
