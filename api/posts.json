@@ -5,38 +5,72 @@
     "verified": true,
     "avatar": "https://gif-avatars.com/img/90x90/barbara-palvin.gif",
     "id": "dfs98f7d90s8f0d9s87g0",
-    "text": "wow",
-    "image": "https: //media.giphy.com/media/349qKnoIBHK1i/giphy.gif",
-    "comments": []
+    "text": "That feeling when everything worked out",
+    "image": "https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif",
+    "comments": [
+      {
+        "id": "gs809g8dfs09gd8gs",
+        "postId": "dfs98f7d90s8f0d9s87g0",
+        "text": "Good job I wish everything worked out in the future"
+      },
+      {
+        "id": "gl809g8djs06gdjgs",
+        "postId": "dfs98f7d90s8f0d9s87g0",
+        "text": "Will you teach me the same?"
+      }
+    ]
   },
   {
     "displayName": "Barbara Palvin",
     "userName": "realbarbarapalvin",
     "verified": true,
     "avatar": "https://gif-avatars.com/img/90x90/barbara-palvin.gif",
-    "id": "dfs98f7d90s8f0d9s87g0",
-    "text": "wow",
+    "id": "dfd9ffgd9rs8fid9sk7g1",
+    "text": "My typical working day lol",
     "image": "https://media.giphy.com/media/MGdfeiKtEiEPS/giphy.gif",
-    "comments": []
+    "comments": [
+      {
+        "id": "flisjg8dfs09gdwpf",
+        "postId": "dfd9ffgd9rs8fid9sk7g1",
+        "text": "Сool when work brings pleasure"
+      }
+    ]
   },
   {
     "displayName": "Barbara Palvin",
     "userName": "realbarbarapalvin",
     "verified": true,
     "avatar": "https://gif-avatars.com/img/90x90/barbara-palvin.gif",
-    "id": "dfs98f7d90s8f0d9s87g0",
-    "text": "wow",
+    "id": "cht98ftuj0srokd9s87g0",
+    "text": "Today I learned to develop blindly",
     "image": "https://media.giphy.com/media/ekjmhJUGHJm7FC4Juo/giphy.gif",
-    "comments": []
+    "comments": [
+      {
+        "id": "97609g854309gd8ki",
+        "postId": "cht98ftuj0srokd9s87g0",
+        "text": "Good for U grats!!!"
+      },
+      {
+        "id": "12309857js0hydjgs",
+        "postId": "cht98ftuj0srokd9s87g0",
+        "text": "When you're done give a link to the project, tnx"
+      }
+    ]
   },
   {
     "displayName": "Barbara Palvin",
     "userName": "realbarbarapalvin",
     "verified": true,
     "avatar": "https://gif-avatars.com/img/90x90/barbara-palvin.gif",
-    "id": "dfs98f7d90s8f0d9s87g0",
-    "text": "wow",
+    "id": "sss9dvsd9vsdf0dvds7g0",
+    "text": "Who is ready to give me a code review? ))))",
     "image": "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif",
-    "comments": []
+    "comments": [
+      {
+        "id": "jjj0gtr7js0hydasr",
+        "postId": "sss9dvsd9vsdf0dvds7g0",
+        "text": "Сan i try if you don't mind"
+      }
+    ]
   }
 ]
