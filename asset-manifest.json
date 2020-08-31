@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.3f9c63c9.chunk.css",
+    "main.css": "./static/css/main.135816c1.chunk.css",
     "main.js": "./static/js/main.4c8b960d.chunk.js",
     "main.js.map": "./static/js/main.4c8b960d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.05d1baf0.js",
@@ -8,9 +8,9 @@
     "static/js/2.fdd52e20.chunk.js": "./static/js/2.fdd52e20.chunk.js",
     "static/js/2.fdd52e20.chunk.js.map": "./static/js/2.fdd52e20.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.e16887825b05ff28c2f9a970c469871e.js": "./precache-manifest.e16887825b05ff28c2f9a970c469871e.js",
+    "precache-manifest.f9a35968d8883c54ad18a6808f788bd4.js": "./precache-manifest.f9a35968d8883c54ad18a6808f788bd4.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.3f9c63c9.chunk.css.map": "./static/css/main.3f9c63c9.chunk.css.map",
+    "static/css/main.135816c1.chunk.css.map": "./static/css/main.135816c1.chunk.css.map",
     "static/js/2.fdd52e20.chunk.js.LICENSE.txt": "./static/js/2.fdd52e20.chunk.js.LICENSE.txt",
     "static/media/App.scss": "./static/media/Ubuntu-Regular.2505bfbd.ttf",
     "static/media/NotFoundPage.scss": "./static/media/sad-cry.d5f941eb.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.05d1baf0.js",
     "static/js/2.fdd52e20.chunk.js",
-    "static/css/main.3f9c63c9.chunk.css",
+    "static/css/main.135816c1.chunk.css",
     "static/js/main.4c8b960d.chunk.js"
   ]
 }
